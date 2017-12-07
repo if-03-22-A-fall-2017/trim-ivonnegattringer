@@ -85,3 +85,12 @@ TEST(leading_and_trailing_blanks)
 	trim(str, trimmed);
 	ASSERT_EQUALS("PRPR is fun", trimmed);
 }
+
+TEST(more_blanks_in_the_middle)
+{
+	char str[STRLEN] = " PRPR    is     fun ";
+	char trimmed[STRLEN] = "no content";
+
+	trim(str, trimmed);
+	ASSERT_EQUALS("PRPR    is    fun", trimmed);
+}

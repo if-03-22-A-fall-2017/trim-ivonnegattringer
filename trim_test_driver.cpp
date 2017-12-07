@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
 	ADD_TEST(leading_blanks);
 	ADD_TEST(trailing_blanks);
 	ADD_TEST(leading_and_trailing_blanks);
+	ADD_TEST(more_blanks_in_the_middle);
 
 	run_tests();
 	return 0;

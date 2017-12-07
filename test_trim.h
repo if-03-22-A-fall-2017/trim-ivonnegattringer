@@ -20,5 +20,6 @@ TEST(total_string);
 TEST(leading_blanks);
 TEST(trailing_blanks);
 TEST(leading_and_trailing_blanks);
+TEST(more_blanks_in_the_middle);
 
 #endif
