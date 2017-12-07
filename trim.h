@@ -17,4 +17,7 @@
  #include "shortcut.h"
  #define STRLEN 40
  void  trim(const char *source, char *trimmed_string);
+ char* fill_trimmed_string_right(const char *source, char *trimmed_string);
+ int where_to_end(const char *source);
+ int blanks_at_the_beginning(const char *source);
  #endif
